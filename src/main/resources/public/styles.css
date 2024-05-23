@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.hand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    background-image: url('/images/cards.png'); /* 이미지 경로 확인 */
+    background-size: 1300px 600px; /* Adjust based on the size of your sprite image */
+    background-repeat: no-repeat;
+}
+
+/* Define positions for each card in the sprite */
+.card-ace-of-hearts { background-position: 0 0; }
+.card-2-of-hearts { background-position: -100px 0; }
+.card-3-of-hearts { background-position: -200px 0; }
+.card-4-of-hearts { background-position: -300px 0; }
+.card-5-of-hearts { background-position: -400px 0; }
+.card-6-of-hearts { background-position: -500px 0; }
+.card-7-of-hearts { background-position: -600px 0; }
+.card-8-of-hearts { background-position: -700px 0; }
+.card-9-of-hearts { background-position: -800px 0; }
+.card-10-of-hearts { background-position: -900px 0; }
+.card-jack-of-hearts { background-position: -1000px 0; }
+.card-queen-of-hearts { background-position: -1100px 0; }
+.card-king-of-hearts { background-position: -1200px 0; }
+
+.card-ace-of-spades { background-position: 0 -150px; }
+.card-2-of-spades { background-position: -100px -150px; }
+.card-3-of-spades { background-position: -200px -150px; }
+.card-4-of-spades { background-position: -300px -150px; }
+.card-5-of-spades { background-position: -400px -150px; }
+.card-6-of-spades { background-position: -500px -150px; }
+.card-7-of-spades { background-position: -600px -150px; }
+.card-8-of-spades { background-position: -700px -150px; }
+.card-9-of-spades { background-position: -800px -150px; }
+.card-10-of-spades { background-position: -900px -150px; }
+.card-jack-of-spades { background-position: -1000px -150px; }
+.card-queen-of-spades { background-position: -1100px -150px; }
+.card-king-of-spades { background-position: -1200px -150px; }
+
+.card-ace-of-diamonds { background-position: 0 -300px; }
+.card-2-of-diamonds { background-position: -100px -300px; }
+.card-3-of-diamonds { background-position: -200px -300px; }
+.card-4-of-diamonds { background-position: -300px -300px; }
+.card-5-of-diamonds { background-position: -400px -300px; }
+.card-6-of-diamonds { background-position: -500px -300px; }
+.card-7-of-diamonds { background-position: -600px -300px; }
+.card-8-of-diamonds { background-position: -700px -300px; }
+.card-9-of-diamonds { background-position: -800px -300px; }
+.card-10-of-diamonds { background-position: -900px -300px; }
+.card-jack-of-diamonds { background-position: -1000px -300px; }
+.card-queen-of-diamonds { background-position: -1100px -300px; }
+.card-king-of-diamonds { background-position: -1200px -300px; }
+
+.card-ace-of-clubs { background-position: 0 -450px; }
+.card-2-of-clubs { background-position: -100px -450px; }
+.card-3-of-clubs { background-position: -200px -450px; }
+.card-4-of-clubs { background-position: -300px -450px; }
+.card-5-of-clubs { background-position: -400px -450px; }
+.card-6-of-clubs { background-position: -500px -450px; }
+.card-7-of-clubs { background-position: -600px -450px; }
+.card-8-of-clubs { background-position: -700px -450px; }
+.card-9-of-clubs { background-position: -800px -450px; }
+.card-10-of-clubs { background-position: -900px -450px; }
+.card-jack-of-clubs { background-position: -1000px -450px; }
+.card-queen-of-clubs { background-position: -1100px -450px; }
+.card-king-of-clubs { background-position: -1200px -450px; }
+
+.card-back {
+    background-image: url('/images/card-back.png'); /* 카드 뒷면 이미지 경로 확인 */
+    background-size: cover;
+}
